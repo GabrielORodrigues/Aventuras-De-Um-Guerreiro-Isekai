@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Aventuras De Um Guerreiro Isekai</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/Imagem-Inicial.png" alt="Seu Personagem">
+            <p>Você é um explorador muito abilidoso, que está no Rank Avançado de magia e em habilidade com espada você esta no Rank Espada Intermediária. Você está a procura de novos desafios, você ouve um explorador comentando que existe alguns desafios muito difíceis que ainda nao foram superados por nínguem em 2 cidades. Um desses dasafios é um grande labirinto localizado na cidade de Begaritt. E o outro é uma grande caverna localizada aos arredores da Federação De Jura Tempest. Nessa caverna está escondido um dos dragoes mais temidos pelo mundo, conhecido como “O DRAGÃO DO VENDAVAL”. Depois de muito tempo pensando você decide ir em:</p>
+            <button class="btn-proximo" data-proximo="2">Federação De Jura Tempest</button>
+            <button class="btn-proximo" data-proximo="1">Begaritt</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua grande jornada para Begaritt. No meio do caminho você avista uma pequena cidade, você esta muito cansado pois está a muitos dias caminhando, então você decide:</p>
+            <button class="btn-proximo" data-proximo="3">Continuar Seguindo o Seu Caminho</button>
+            <button class="btn-proximo" data-proximo="4">Passar Alguns Dias Na Pequena Cidade</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>O caminho é grande demais para ficar com interrupções, você decide continuar seguindo seu caminho mas sempre se pergunta o que teria encontrado naquela cidadezinha.</p>
+            <button class="btn-proximo" data-proximo="8">Seguir Sua Jornada Para Begaritt</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <img src="img/Begaritt.png" alt="Cidade De Begaritt">
+            <p>Após muitos dias andando você finalmente chega na cidade de Begaritt. É um lugar incrível, construída embaixo da ossada de uma gigantesca criatura, certamente seria um dragão de Rank Calamidade, você acha aquilo muito impressionante mais rapidamente volta com o foco para o seu objetivo. Você decide ir para a “Guilda De Aventureiros De Begaritt” para tentar obter a localização do grande labirinto.</p>
+            <button class="btn-proximo" data-proximo="10">Ir Para a Guilda</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <img src="img/Paul-Greyrat.jpeg" alt="Paul Greyrat">
+            <p>Chegando na Guilda você procura por informações sobre o grande labirinto e acaba encontrando um grupo de 5 pessoas, cujo líder era um homem chamado Paul Greyrat,ele era muito habilidoso com espadas. Diziam eles que estavam preparando planos para conseguir entrar no labirinto. Sabendo disso voce decide fazer uma pergunta a eles.</p>
+            <button class="btn-proximo" data-proximo="12">Perguntar Sobre Esqueleto Que Estava Sobre a Cidade</button>
+            <button class="btn-proximo" data-proximo="13">Perguntar Sobre o Labirinto</button>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>Ele conta que aquele esqueleto era de um grande dragão chamado “Veldora Tempest” que assombrava todo o continente e que um dia foi morto por um grande heroí, porém, dizem as lendas que ele renasceu novamente e que pessoas avistaram ele em uma caverna localizada dentro de uma floresta de monstros.</p>
+            <button class="btn-proximo" data-proximo="13">Perguntar Sobre o Labirinto</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <p>Ele diz que o labirinto e muito perigoso e difícil, e que ninguém nunca conseguiu chegar ao final dele. Disse também que o labirinto esta localizado em uma masmorra que esta ali por perto e que se você quisesse ter uma chance de chegar em algum lugar no labirinto voce precisaria de um grupo para te ajudar. Ele então te convida para entrar no labirinto junto com ele e o grupo dele.</p>
+            <button class="btn-proximo" data-proximo="15">Aceitar</button>
+            <button class="btn-proximo" data-proximo="16">Recusar e Seguir Sozinho</button>
+        </div>
+        <div class="passo" id="passo-16">
+            <p>Você decide entrar no labirinto sozinho. Chegando lá você vê um selo de teletransporte gravado no chão, você decide entrar. Você toma coragem e entra no selo. Você foi teletrasportado para dentro do grande labirinto. Você decide seguir em frente para encontrar o final do labirinto.</p>
+            <button class="btn-proximo" data-proximo="18">Seguir Em Frente No Labirinto</button>
+        </div>
+        <div class="passo" id="passo-18">
+            <p>Você tenta progredir naquele labirinto, porém você percebe que estava andando em círculos. Você começa a escutar vários monstros se aproximando, e então você tenta fugir, mas não adianta, você entrou em um caminho sem saída, os monstros te atacam, e infelizmente você não resiste aos ferimentos. Talvez se estivesse tomado decisões diferentes você conseguiria ter completado o labirinto.</p>
+            <button class="btn-proximo" data-proximo="0">Tomar Novas Decisões</button>
+        </div>
+        <div class="passo" id="passo-15">
+            <p>Você aceita o convite dele e juntos vão para o grande labirinto. Chegando lá vocês veem um selo de teletransporte gravado no chão, vocês tomam coragem e entram no selo. Vocês foram teleportado para dentro do labirinto, finalmente você chegou no labirinto. Lá dentro você ve muitas criaturas perigosas e vários caminhos sem saídas, mas você nao se intimida e continua seguindo em frente.</p>
+            <button class="btn-proximo" data-proximo="17">Seguir Em Frente</button>
+        </div>
+        <div class="passo" id="passo-17">
+            <p>Após muitas batalhas e muito tempo andando pelo labirinto vocês finalmente acham um lugar que parece ser o final, porém, para conseguir passar daquele local voce precisa escolher entre dois teletransportadores, um te levara para a sala final e o outro te levara para um local sem saída, fazendo com que você fique perdido e nunca mais ache a saída. Após pensar muito você decide seguir o caminho da:</p>
+            <button class="btn-proximo" data-proximo="20">Direita</button>
+            <button class="btn-proximo" data-proximo="19">Esquerda</button>
+        </div>
+        <div class="passo" id="passo-20">
+            <p>Vocês entram no portal da direita e...</p>
+            <button class="btn-proximo" data-proximo="22">. . .</button>
+        </div>
+        <div class="passo" id="passo-22">
+            <p>Vocês acabam sendo teletrasportados para um lugar aleatório do labirinto onde ficam andando em círculos e acaba nunca achando uma saída. Talvez se tivesse tomado decisões diferentes você conseguiria ter completado o labirinto.</p>
+            <button class="btn-proximo" data-proximo="0">Tomar Novas Decisões</button>
+        </div>
+        <div class="passo" id="passo-19">
+            <p>Vocês entram no portal da esquerda e...</p>
+            <button class="btn-proximo" data-proximo="21">. . .</button>
+        </div>
+        <div class="passo" id="passo-21">
+            <img src="img/Hidra.png" alt="imagem Hidra">
+            <p>Vocês são teletrasportado para a sala final, lá vocês encontram uma grande criatura, ela é uma Hidra, besta da classe “Calamidade” e para conseguirem sair de lá vocês precisarão derrotar ela. Então vocês se preparam para atacar e partem pra cima da criatura.</p>
+            <button class="btn-proximo" data-proximo="23">Lutar Contra a Hidra</button>
+        </div>
+        <div class="passo" id="passo-23">
+            <img src="img/Paul-Greyrat-Morto.png" alt="Paul Greyrat-Morto">
+            <p>Vocês enfrentam a Hidra com todas as suas forças, porém, por um momento você se descuidou, a Hidra estava muito próxima de você, prestes a te dar uma mordida fatal, mas no último segundo, Paul Greyrat se joga na frente do ataque com a intenção de salvar sua vida. A Hidra pega ele com a boca e arremessa ele muito longe, para proteger o resto da equipe vocês decidem atacar com todas as forças que ainda resta. E após muito tempo lutando contra a Hidra vocês finalmente conseguem vencer ela. Você vai comemorar com a equipe porém você percebe todos reunidos em volta de algo, quando você para pra ver era Paul Greyrat que foi brutalmente morto pela criatura.</p>
+            <button class="btn-proximo" data-proximo="24">. . .</button>
+        </div>
+        </div>
+        <div class="passo" id="passo-24">
+            <p>Você percebe que talvez, se tivesse tomado escolhas melhores Paul ainda estaria vivo. Vocês saem do labirinto em extremo silêncio, pois estavam de luto pelo seu amigo. Você se despede do grupo e vai embora se sentindo muito triste por não ter feito nada para salvar Paul. Talvez se tivesse uma forma de prever os movimentos daquela criatura nada disso teria acontecido. Você termina seu objetivo porém se sente muito vazio por dentro. Talvez você não tenha tomado as melhores escolhas. Mas veja pelo lado bom, você conseguiu alcançar seu objetivo, isso é bom... né ?</p>
+            <button class="btn-proximo" data-proximo="25">. . .</button>
+        </div>
+        <div class="passo" id="passo-25">
+            <img src="img/Espaço.png" alt="Espaço">
+            <p>Mas você pensa...</p>
+            <button class="btn-proximo" data-proximo="26">. . .</button>
+        </div>
+        <div class="passo" id="passo-26">
+            <img src="img/Espaço.png" alt="Espaço">
+            <p>“E se eu tivesse feito escolhas diferentes ?”</p>
+            <button class="btn-proximo" data-proximo="27">. . .</button>
+        </div>
+        <div class="passo" id="passo-27">
+            <p>Fim</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Você decide ficar por alguns dias na pequena cidade para que possa recuperar suas energias. Você aluga um quarto em um hotel para passar a noite.</p>
+            <button class="btn-proximo" data-proximo="5">Passar a noite</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Você acorda no dia seguinte ouvindo vários gritos vindo do beco do lado de fora da janela de seu quarto, você levanta para ver oque está acontecendo e se depara com um grupo infurecido indo para cima de uma garotinha, então você decide:</p>
+            <button class="btn-proximo" data-proximo="6">Ignorar e Voltar a Dormir</button>
+            <button class="btn-proximo" data-proximo="7">Ajudar a Garotinha</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Você ignora o que estava acontecendo e volta dormir. No dia seguinte você decide seguir sua jornada para Begaritt.</p>
+            <button class="btn-proximo" data-proximo="8">Seguir Sua Jornada Para Begaritt</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="img/Imperatriz-Demonio.jpg" alt="imagem ImperatrizDemonio">
+            <p>Você decide ajudar a garotinha, você saca sua espada e sai derrubando todos aqueles que estavam tentando agredir a garotinha, e em poucos segundos todos estão desmaiados no chão. Voce vai conversar com a garotinha para ver se está tudo bem, ela te agradece e se apresenta como “A Imperatriz Do Submundo”, e diz que realizara um pedido seu. O que você pede ?</p>
+            <button class="btn-proximo" data-proximo="9">Quero Ser Muito Poderoso</button>
+            <button class="btn-proximo" data-proximo="9">Quero Que Me Teletrasporte Para a Cidade De Begaritt</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>Ela diz que não pode realizar esse desejo pois acabou de reencarnar em seu novo corpo, e por esse motivo ela não está com poder o suficiente para realizar seu desejo, mas ela te oferece um Olho Demônio Da Previsão. Você desconfia que ela não seja uma imperatriz demônio de verdade, mas você decide aceitar a oferta.</p>
+            <button class="btn-proximo" data-proximo="11">Aceitar a Oferta Da Garotinha</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <p>Você aceita a proposta da garotinha, e antes mesmo de você tirar suas duvidas sobre esse tal Olho Demônio Da Previsão a garotinha pula em sua cara e implanta o olho em você. Você começa a enxergar tudo meio estranho, era como se conseguisse ver tudo alguns segundos antes de acontecer. A garotinha te explica que esse olho lhe permite ver as coisas segundos antes de acontecer. Após explicar isso ela diz que tem algo muito importante para fazer e que não podera mais ficar com você, vocês se despedem e ela vai embora. Depois de tudo isso, você decide continuar a seguir seu caminho para Begaritt.</p>
+            <button class="btn-proximo" data-proximo="14">Seguir Sua Jornada Para Begaritt</button>
+        </div>
+        <div class="passo" id="passo-14">
+            <img src="img/Begaritt.png" alt="Cidade De Begaritt">
+            <p>Você passou o caminho inteiro treinando e conseguiu o domínio completo do seu olho, e após muitos dias andando você finalmente chega na cidade de Begaritt. É um lugar incrível, construída embaixo da ossada de uma gigantesca criatura, certamente seria um dragão de Rank Calamidade, você acha aquilo muito impressionante mas rapidamente volta com o foco para o seu objetivo. Você decide ir para a “Guilda De Aventureiros De Begaritt” para tentar obter a localização do grande labirinto.</p>
+            <button class="btn-proximo" data-proximo="28">Ir Para a Guilda</button>
+        </div>
+        <div class="passo" id="passo-28">
+            <img src="img/Paul-Greyrat.jpeg" alt="Paul Greyrat">
+            <p>Chegando na Guilda você procura por informações sobre o grande labirinto e acaba encontrando um grupo de 5 pessoas, cujo líder era um homem chamado Paul Greyrat,ele era muito habilidoso com espadas. Diziam eles que estavam preparando planos para conseguir entrar no labirinto. Sabendo disso você decide fazer uma pergunta a eles.</p>
+            <button class="btn-proximo" data-proximo="29">Perguntar Sobre Esqueleto Que Estava Sobre a Cidade</button>
+            <button class="btn-proximo" data-proximo="30">Perguntar Sobre o Labirinto</button>
+        </div>
+        <div class="passo" id="passo-29">
+            <p>Ele conta que aquele esqueleto era de um grande dragão chamado “Veldora Tempest” que assombrava todo o continente e que um dia foi morto por um grande heroí, pórem, dizem as lendas que ele resnasceu novamente e que pessoas avistaram ele em uma caverna localizada dentro de uma floresta de monstros.</p>
+            <button class="btn-proximo" data-proximo="30">Perguntar Sobre o Labirinto</button>
+        </div>
+        <div class="passo" id="passo-30">
+            <p>Ele diz que o labirinto e muito perigoso e difícil, e que ninguém nunca conseguiu chegar ao final dele. Disse também que o labirinto está localizado em uma masmorra que estava ali por perto e que se você quisesse ter uma chance de chegar em algum lugar no labirinto você precisaria de um grupo para te ajudar. Ele então te convida para entrar no labirinto junto com ele e o grupo dele.</p>
+            <button class="btn-proximo" data-proximo="31">Aceitar</button>
+            <button class="btn-proximo" data-proximo="32">Recusar e Seguir Sozinho</button>
+        </div>
+        <div class="passo" id="passo-32">
+            <p>Você decide entrar no labirinto sozinho. Chegando lá você vê um selo de teletransporte gravado no chão, você decide entrar. Você toma coragem e entra no selo. Você foi teletrasportado para dentro do grande labirinto. Você decide seguir em frente para encontrar o final do labirinto.</p>
+            <button class="btn-proximo" data-proximo="34">Seguir Em Frente No Labirinto</button>
+        </div>
+        <div class="passo" id="passo-34">
+            <p>Você tenta progredir naquele labirinto, porém percebe que estava andando em círculos. Você começa a escutar vários monstros se aproximando, e então você tenta fugir, mas não adianta, você entrou em um caminho sem saída, os monstros te atacam, e infelizmente você não resiste aos ferimentos. Talvez se tivesse tomado decisões diferentes você conseguiria ter completado o labirinto.</p>
+            <button class="btn-proximo" data-proximo="0">Tomar Novas Decisões</button>
+        </div>
+        <div class="passo" id="passo-31">
+            <p>Você aceita o convite dele e juntos vão para o grande labirinto. Chegando lá vocês veem um selo de teletransporte gravado no chão, vocês tomam coragem e entram no selo. Vocês foram teleportado para dentro do labirinto, finalmente você chegou no labirinto. Lá dentro você vê muitas criaturas perigosas e vários caminhos sem saída, mais você não se intimida e continua seguindo em frente.</p>
+            <button class="btn-proximo" data-proximo="33">Seguir Em Frente</button>
+        </div>
+        <div class="passo" id="passo-33">
+            <p>Após muitas batalhas e muito tempo andando pelo labirinto vocês finalmente acham um lugar que parece ser o final, porém, para conseguir passar daquele local você precisa escolher entre dois teletransportadores, um te levará para a sala final e o outro te levará para um local sem saída, fazendo com que você fique perdido e nunca mais ache a saída. Após pensar muito você decide seguir o caminho da:</p>
+            <button class="btn-proximo" data-proximo="35">Esquerda</button>
+            <button class="btn-proximo" data-proximo="36">Direita</button>
+        </div>
+        <div class="passo" id="passo-36">
+            <p>Vocês entram no portal da direita e...</p>
+            <button class="btn-proximo" data-proximo="38">. . .</button>
+        </div>
+        <div class="passo" id="passo-38">
+            <p>Vocês acabam sendo teletrasportados para um lugar aleatório do labirinto onde ficam andando em círculos e acabando nunca achando uma saída. Talvez se tivesse tomado decisões diferentes você conseguiria ter completado o labirinto.</p>
+            <button class="btn-proximo" data-proximo="0">Tomar Novas Decisões</button>
+        </div>
+        <div class="passo" id="passo-35">
+            <p>Vocês entram no portal da esquerda e...</p>
+            <button class="btn-proximo" data-proximo="37">. . .</button>
+        </div>
+        <div class="passo" id="passo-37">
+            <img src="img/Hidra.png" alt="imagem Hidra">
+            <p>Vocês são teletrasportado para a sala final, lá vocês encontram uma grande criatura, ela é uma Hidra, uma besta da classe “Calamidade”, e para conseguirem sair de lá vocês precisarão derrotar ela. Então vocês se preparam para atacar e partem pra cima da criatura.</p>
+            <button class="btn-proximo" data-proximo="39">Lutar Contra a Hidra</button>
+        </div>
+        <div class="passo" id="passo-39">
+            <p>Após muito tempo lutando contra a Hidra vocês finalmente conseguem vencer ela. Você percebe que sem o Olho Da Previsão e sem aquele grupo você nunca teria conseguido alcançar o seu objetivo. Após tudo isso vocês percebem que tinha uma pessoa aprisionada em um cristal que estava atrás da hidra, vocês usam magia para tirar aquela pessoa de lá e descobrem que é ela é uma jovem garota de 16 anos chamada Sylphiette. Vocês tiram ela de lá e saem do labirinto.</p>
+            <button class="btn-proximo" data-proximo="40">Sair Do Labirinto</button>
+        </div>
+        <div class="passo" id="passo-40">
+            <p>Vocês saem do labirinto e você fica muito feliz por finalmente completar o seu objetivo, além disso você também conseguiu evoluir sua habilidade com espadas para o Rank Espada Santa. Você agradece ao grupo de Paul Greyrat por terem te tratado tão bem e ajudado a chegar no final do labirinto. Você se despede deles, porém, eles convidam você para fazer parte daquele grupo e participar das aventuras junto com eles. Então você:</p>
+            <button class="btn-proximo" data-proximo="41">Aceitar e Entrar Para o Grupo Deles</button>
+            <button class="btn-proximo" data-proximo="42">Recusar</button>
+        </div>
+        <div class="passo" id="passo-42">
+            <p>Você recusa o convite e continua seguindo sozinho seu caminho  em busca de novas aventuras.</p>
+            <button class="btn-proximo" data-proximo="43">. . .</button>
+        </div>
+        <div class="passo" id="passo-41">
+            <p>Você aceitou o convite. Depois desse dia você virou um novo integrande daquele grupo. Vocês se divertiam e iam para várias missões juntos. Telvez essas foram as melhores escolhas que você já fez.</p>
+            <button class="btn-proximo" data-proximo="43">. . .</button>
+        </div>
+        <div class="passo" id="passo-43">
+            <img src="img/Espaço.png" alt="Espaço">
+            <p>Mas você pensa...</p>
+            <button class="btn-proximo" data-proximo="44">. . .</button>
+        </div>
+        <div class="passo" id="passo-44">
+            <img src="img/Espaço.png" alt="Espaço">
+            <p>“E se eu tivesse feito escolhas diferentes ?”</p>
+            <button class="btn-proximo" data-proximo="45">. . .</button>
+        </div>
+        <div class="passo" id="passo-45">
+            <p>Fim</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você começa sua jornada para a Federação De Jura Tempest, tudo o que sabe sobre lá é que a cidade está localizada dentro de uma floresta chamada de “A Grande Floresta De Jura”, que está repleta de monstros e que aos arredores da cidade possui uma grande caverna onde está escondido o temido “DRAGÃO DO VENDAVAL”. Sabendo disso você inicia a sua caminhada para a cidade de Rimuru City.</p>
+            <button class="btn-proximo" data-proximo="46">Seguir Seu Caminho Para Federação De Jura Tempest</button>
+        </div>
+        <div class="passo" id="passo-46">
+            <p>Após 2 dias caminhando você consegue chegar na Grande Floresta De Jura, é um lugar muito interessante, você consegue sentir uma grande quantidade de magia no ar. Você decide entrar na floresta, porém, antes que pudesse entrar completamente na floresta aparece uma Dríade, uma criatura que é considerada a guardiã da Grande Floresta De Jura. Ela pergunta a você o motivo de você estar lá, então você decide contar para ela o que fazia por ali.</p>
+            <button class="btn-proximo" data-proximo="47">Contar o Que Veio Fazer Naquele Local</button>
+        </div>
+        <div class="passo" id="passo-47">
+            <img src="img/Dryad.jpg" alt="Dryad">
+            <p>Você conta a ela o motivo de estar lá, você disse que gostaria de enfrentar o Grande Dragao Do Vendaval, ela apenas dá uma risadinha e fala que você está permitido entrar na floresta, mas ela pede para você não causar nenhuma confusão lá dentro. Você promete para ela que não ira causar nenhum problema. Após isso você:</p>
+            <button class="btn-proximo" data-proximo="48">Pergunta Para Ela Mais Informações Sobre A Floresta</button>
+            <button class="btn-proximo" data-proximo="49">Se Despede Da Dríade e Continua A Seguir Seu Objetivo</button>
+        </div>
+        <div class="passo" id="passo-48">
+            <img src="img/Floresta-De-Jura.png" alt="Floresta De Jura">
+            <p>Você pede para ela te explicar melhor sobre a floresta, ela conta que a floresta é um lugar muito grande, que contém vários monstros selvagens. Mas também ela conta que possuem várias aldeias de monstros na floresta, como Orcs, Dragonilds, Ogros, Onis, Goblins, Elfos, e várias outras criaturas. Ela também contou que na floresta a uma enorme civilização chamada Federação De Jura Tempest, que é uma cidade onde o princial objetivo e que os habitantes de lá possam viver igualmente independente da raça. Ela diz também que a Federação De Jura Tempest e a floresta de jura inteira está sobre dominio de um Lord Demônio chamado Rimuru Tempest, ela diz que ele é um ser muito poderoso e diz que ele quer que todos vivam em harmonia sem guerras. Você acha tudo isso muito interessante.</p>
+            <button class="btn-proximo" data-proximo="49">Você Agradece Dríade Pelas Informações, Se Despede e Continua A Seguir Seu Objetivo</button>
+        </div>
+        <div class="passo" id="passo-49">
+            <p>Após algum tempo caminhando você se depara com uma orda de monstros muito poderosos, você tenta lutar contra eles mais eles são muito fortes e estão em maior quantidade, você percebe que ali iria ser seu fim. Até que...</p>
+            <button class="btn-proximo" data-proximo="50">. . .</button>
+        </div>
+        <div class="passo" id="passo-50">
+            <img src="img/Dead-End.png" alt="Dead End">
+            <p>Aparecem 3 aventureiros, um era um jovem garoto de cabelos castanho claro com um cajado, ele consegue usar magias sem encantamentos, ele parece ser muito habilidoso. O outro era um homem com uma lança, ele era muito forte, não usava magia mais era muito habilidoso em batalhas com armas, e a outra era uma garota de cabelos vermelhos feito fogo, ela também era muito habilidosa com espadas mas não chegava nem perto daquele homem com a lança. Os 3 eram muito fortes, conseguiram acabar com todos os monstros em menos de 1 minuto. Você ficou muito impressionado com tudo aquilo, então agradece eles pela ajuda e pergunta:</p>
+            <button class="btn-proximo" data-proximo="51">“Quem São Vocês ?”</button>
+        </div>
+        <div class="passo" id="passo-51">
+            <p>Eles se apresentam. A garotinha se chamava Eris, o homem com a lança se chamava Ruijerd e o outro garoto se chamava Rudeus Greyrat, você se lembra de ter escutado esse nome em algum lugar, então você se lembra, ele é um dos melhores usuários de magia conhecido, ele é do Rank Santo em magias de água e é muio bom em batalhas com espada, por conta de seu olho da previsão. A equipe deles é chamada de Dead End, uma equipe que é muito falada entre os membros das Guildas. Após eles se apresentarem você conta que está indo para a Federação De Jura Tempest em busca de enfrentar o grande Dragão Do Vendaval. Eles dizem estarem indo para o mesmo lugar e te convidam para seguir o caminho junto com eles. Então você decide:</p>
+            <button class="btn-proximo" data-proximo="53">Aceitar o Convite e Continuar Com Eles</button>
+            <button class="btn-proximo" data-proximo="52">Recusar o Convite e Continuar Sozinho</button>
+        </div>
+        <div class="passo" id="passo-52">
+            <p>Você recusa o convite e continua sua jornada sozinho. Após algum tempo aparece um monstro muito forte, você consegue derrotar esse monstro com muita dificuldade, porém, ele não era o único, apareceram novamente uma grande horda de monstros, você tenta derrotar eles, porém, eles era muito fortes, você não consiguira resistir ao ataque daqueles monstros por muito tempo, você se pergunta como chegou naquele ponto. Talvez se tivesse tomado decisões diferentes você ainda estraria vivo..</p>
+            <button class="btn-proximo" data-proximo="0">Tomar Novas Decisões</button>
+        </div>
+        <div class="passo" id="passo-53">
+            <p>Você aceita o convite e se junta a eles para conseguir derrotar o grande Dragão Do Vendaval. Você acaba utilizando a sua caminhada até a Federação De Jura Tempest para treinar com eles, você treina sua habilidade de espadas com Ruijerd e a sua Magia com Rudeus, e em pouco tempo você já estava no Rank Espada Santa em habilidade com espada, e no Rank Santo em magia, você evoluiu muito. E finalmente, após dias de caminhada vocês chegam na Federação De Jura Tempest.</p>
+            <button class="btn-proximo" data-proximo="54">Entrar Na Federação De Jura Tempest</button>
+        </div>
+        <div class="passo" id="passo-54">
+            <img src="img/Jura-Tempest.png" alt="Floresta De Jura Tempest">
+            <p>Chegando lá vocês veem como a cidade era incrível, ela era enorme, e tinha várias criaturas como Ogros, Dragonilds, Orcs, Elfos, Humanos e principalmente Goblins convivendo em perfeita harmonia, era incrível ver aquele lugar. Após algum tempo na cidade um grupo de Onis chegaram até nós, o possível líder se apresentou, ele se chamava Benimaru e era o comandante-chefe militar de Tempest, ele dizia que estávamos chamando muita atenção por conta da nossa grande quantidade de poder. Ele pediu para que nós o seguissemos pois o mestre dele estava querendo falar conosco. Vocês ficam desconfiados, porém, seguem ele para saber sobre o que realmente se tratava.</p>
+            <button class="btn-proximo" data-proximo="55">Seguir Benimaru</button>
+        </div>
+        <div class="passo" id="passo-55">
+            <img src="img/Rimuru.png" alt="Rimuru">
+            <p>Vocês seguem ele até uma sala em uma grande construção, chegando lá vocês veem um pequeno Slime muito fofo, você não resiste e começa a fazer carinho no Slime que por um acaso você acaba descobrindo que é o Lord Demônio Rimuru, o ser que domina toda a Floresta de Jura. Você ajoelha no chão e pede desculpa pela inconveniência, o Lord Demônio sorri e fala para você ficar tranquilo, ele pergunta a vocês o que vieram fazer na cidade, então vocês decidem explicar o motivo de estarem ali.</p>
+            <button class="btn-proximo" data-proximo="56">Voces Explicam Para Ele o Motivo De Estarem Ali</button>
+        </div>
+        <div class="passo" id="passo-56">
+            <p>Ele diz para vocês que não era uma boa ideia tentar enfrentar o grande Dragão Do Vendaval, nem o próprio Lord Demônio Rimuru seria capaz de derrotar ele. Rimuru conta que o grande Dragão Do Vendaval se chama Veldora Tempest e que eles era melhores amigos a alguns anos atrás, porém, ele conta que um dia um homem mascarado de roupas pretas chegou na cidade e através de um poder ocular conseguiu dominar a mente de Veldora, ele conta que esse homem usou o Dragão para destruir toda a cidade, porém, antes que ele fizesse isso Rimuru cria uma barreira anti-magia e sela o grande Dragão junto com o homem mascarado dentro de uma caverna proxíma dali. Após ele contar toda essa história vocês decidem:</p>
+            <button class="btn-proximo" data-proximo="57">Não Se Entrometer No Assunto Pois Sabiam Que Não Seriam Capaz De Derrotar o Dragão</button>
+            <button class="btn-proximo" data-proximo="58">Ajudar a Libertar o Dragão</button>
+        </div>
+        <div class="passo" id="passo-57">
+            <p>Vocês acabam decidindo não se intrometer na história, afinal vocês não seriam capazes de derrotar aquele dragão. Vocês aproveitam por alguns dias na grande Federação De Jura Tempest, e após isso vocês se despedem e vão para caminhos opostos. Foi até que legalzinho, porém, você imagina oque teria acontecido se tivesse feito escolhas diferentes.</p>
+            <button class="btn-proximo" data-proximo="0">Tomar Novas Decisões</button>
+        </div>
+        <div class="passo" id="passo-58">
+            <p>Vocês decidem ajudar Rimuru a liberta Veldora do controle do homem mascarado, ele agradece vocês por oferecerem ajuda para libertar seu amigo Veldora. Rimuru conta sobre a localização da caverna onde está Veldora e fala também que não podera ajudar vocês pois terá que ficar na cidade para garantir que nem uma criatura invada a e destrua a cidade, vocês falam para ele não ficar preocupado pois vocês iriam trazer o seu amigo de volta. Rimuru agradece pela ajuda e oferecem a vocês um quarto para descansarem e passarem a noite para que não fiquem sem energia na hora de lutarem contra Veldora, então vocês:</p>
+            <button class="btn-proximo" data-proximo="59">Aceitam o Quarto e Vão Descansar Para o Dia Seguinte</button>
+            <button class="btn-proximo" data-proximo="60">Recusar o Quarto Pois Querem Libertar Veldora o Mais Rápido Possível</button>
+        </div>
+        <div class="passo" id="passo-60">
+            <p>Vocês vão direto a caverna na qual Rimuru tinha dito sem nem parar para descançar. Chegando lá vocês sente uma enorme pressão, deve ser por conta da alta quantidade de magia concentrada no ar, vocês também veem uma enorme porta na qual vocês decidem abrir.</p>
+            <button class="btn-proximo" data-proximo="61">Abrir Grande Porta</button>
+        </div>
+        <div class="passo" id="passo-61">
+            <img src="img/Veldora-Dragão.jpg" alt="Veldora-Dragão">
+            <p>Vocês abrem a grande porta e entram dentro da caverna. Lá vocês dão de cara com o homem mascarado que Rimuru falou, e logo atrás dele o grande dragão que estava com uma aura muito intimidadora. O homem então pergunta “O QUE FAZEM AQUI?”,
+vocês respondem a ele que estavam lá para impedir ele de continuar controlando a mente do Dragão Do Vendaval, ele dá uma grande gargalhada e diz “QUE OS JOGOS COMECEM!!!”, aquele era um sinal óbvio de que ele queria lutar, então vocês se preparam para lutar, porém, estavam tão cansados que no primeiro golpe que levaram todos perderam a consciência.</p>
+            <button class="btn-proximo" data-proximo="62">. . .</button>
+        </div>
+        <div class="passo" id="passo-62">
+            <p> O homem mascarado vendo aquilo deu uma enorme gargalhada e disse “Uau, essa batalha foi realmente muito fácil, não perderei meu precioso tempo com vocês. "DRAGÃO INCINERE-OS”. Vocês acabam perdendo a vida, você nao entendo o porque disso acontecer. Talvez se tivesse tomado decisões diferentes ainda estraríamos vivos..</p>
+            <button class="btn-proximo" data-proximo="0">Tomar Novas Decisões</button>
+        </div>
+        <div class="passo" id="passo-59">
+            <p>Vocês acordam no dia seguinte muitos dispostos para enfrentar Veldora, vocês vão direto a caverna na qual Rimuru tinha dito. Chegando lá vocês sente uma enorme pressão, deve ser por conta da alta quantidade de magia concentrada no ar, vocês também veem uma enorme porta na qual vocês decidem abrir.</p>
+            <button class="btn-proximo" data-proximo="63">Abrir Grande Porta</button>
+        </div>
+        <div class="passo" id="passo-63">
+            <img src="img/Veldora-Dragão.jpg" alt="Veldora-Dragão">
+            <p>Vocês abrem a grande porta e entram dentro da caverna. Lá dentro vocês dão de cara com o homem mascarado que Rimuru falou, e logo atrás dele o grande dragão que estava com uma aura muito intimidadora. O homem então pergunta “O QUE FAZEM AQUI?”,
+                vocês respondem a ele que estavam lá para impedir ele de continuar controlando a mente do Dragão Do Vendaval, ele dá uma grande gargalhada e diz “QUE OS JOGOS COMECEM!!!”, aquele era um sinal óbvio de que ele queria lutar, então vocês se preparam e dão ínicio a grande luta.</p>
+            <button class="btn-proximo" data-proximo="64">. . .</button>
+        </div>
+        <div class="passo" id="passo-64">
+            <p>Após muito tempo de luta você percebe que o dragão era muito forte, e que vocês certamente não consiguiriam derrotar ele, então vocês decidem:</p>
+            <button class="btn-proximo" data-proximo="65">Continuar Lutando, Pois Juntos Conseguiriam Derrotar Ele</button>
+            <button class="btn-proximo" data-proximo="66">Enfrentar Outro Adversário</button>
+        </div>
+        <div class="passo" id="passo-65">
+            <p>Vocês passam muito tempo lutando, porém, não conseguem obter nenhum progresso, vocês já estavam muito fracos, não tinham forças nem para levantar, parece que esse será o fim. Talvez se tivesse tomado decisões diferentes ainda estariamos vivos..</p>
+            <button class="btn-proximo" data-proximo="0">Tomar Novas Decisões</button>
+        </div>
+        <div class="passo" id="passo-66">
+            <img src="img/Obito.jpg" alt="Homem Mascarado">
+            <p>Você decide atacar o homem mascarado, afinal o verdadeiro inimigo era aquele homem, então você pede para os seus amigos distraírem o dragão enquanto você lutava contra o homem. Você inicia a sua luta contra aquele homem mascarado, ele era muito habilidoso, era muito rápido e conseguia lançar magias apenas utilizando selos de mão, porém você conseguia bloquear todas as magias dele sem dificuldade, tudo isso graças ao seu treino com Rudeus, e você se tornou tão rápido com os treinos de Ruijerd que o inimigo não conseguiu nem prever seus movimentos, e em menos de 1 hora você conseguiu acabar com aquele homem mascarado.</p>
+            <button class="btn-proximo" data-proximo="67">. . .</button>
+        </div>
+        <div class="passo" id="passo-67">
+            <img src="img/Veldora-Humano.jpg" alt="Veldora Humano">
+            <p>Você e sua equipe comemoram por terem conseguido vencer aquela batalha e após um tempo Veldora o grande dragão do vendaval finalmente consegue voltar para o controle de sua mente. Veldora estava confuso, então vocês contam para ele tudo o que aconteceu, ele agradece vocês por terem ajudado, você acha tudo aquilo incrível, é a primeira vez que você vê uma criatura de Classe Calamidade tão legal. Veldora se transforma em uma forma humana dele e pede para que vocês levassem ele devolta a Federação De Jura Tempest.</p>
+            <button class="btn-proximo" data-proximo="68">Levar Veldora Devolta Para a Federação De Jura Tempest</button>
+        </div>
+        <div class="passo" id="passo-68">
+            <p>Chegando na Federação De Jura Tempest você reencontra Rimuru, ele fica muito feliz por terem libertado seu amigo daquele homem, ele agradece você e seus amigo e oferece uma casa para morarem ali na cidade de Jura Tempest, vocês recusam, pois dizem ter muitos locais para explorar ainda. Rimuru entende e diz que vocês sempre serão bem vindos em sua cidade, Rimuru e Veldora dizem ter coisas importantes para fazer, eles se despedem e vão embora.  Você finalmente consegue chegar ao fim de sua aventura.</p>
+            <button class="btn-proximo" data-proximo="69">. . .</button>
+        </div>
+        <div class="passo" id="passo-69">
+            <p>Você finalmente consegue chegar ao fim de sua aventura, ficando muito feliz por finalmente ter conseguido concluir seu objetivo. Você decide que gostaria de enfrentar novos desafios. Você estava prestes a se despedir de seus amigos, foi quando eles decidiram te convidar para a Equipe deles “Dead End”, você acha aquela proposta muito legal, você decide:</p>
+            <button class="btn-proximo" data-proximo="71">Aceitar e Entrar Para o Grupo Deles</button>
+            <button class="btn-proximo" data-proximo="70">Recusar</button>
+        </div>
+        <div class="passo" id="passo-70">
+            <p>Você recusa o convite. Você se despede deles e continua seguindo sozinho seu caminho em busca de novas aventuras.</p>
+            <button class="btn-proximo" data-proximo="72">. . .</button>
+        </div>
+        <div class="passo" id="passo-71">
+            <p>Você aceitou o convite. Depois desse dia você virou um novo integrande da equipe “Dead End”. Vocês se divertiam muito e iam para várias missões juntos. Telvez essas foram as melhores escolhas que você já fez.</p>
+            <button class="btn-proximo" data-proximo="72">. . .</button>
+        </div>
+        <div class="passo" id="passo-72">
+            <img src="img/Espaço.png" alt="Espaço">
+            <p>Mas você pensa...</p>
+            <button class="btn-proximo" data-proximo="73">. . .</button>
+        </div>
+        <div class="passo" id="passo-73">
+            <img src="img/Espaço.png" alt="Espaço">
+            <p>“E se eu tivesse feito escolhas diferentes ?”</p>
+            <button class="btn-proximo" data-proximo="74">. . .</button>
+        </div>
+        <div class="passo" id="passo-74">
+            <p>Fim ?</p>
+            <button class="btn-proximo" data-proximo="75">. . .</button>
+        </div>
+        <div class="passo" id="passo-75">
+            <img src="img/Sharingan.png" alt="Sharingan">
+            <p>“EU VOLTAREI”</p>
+            <button class="btn-proximo" data-proximo="76">. . .</button>
+        </div>
+        <div class="passo" id="passo-76">
+            <p>Fim</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
